@@ -37,11 +37,3 @@ main {
   gap: 2rem;
   justify-items: center;
 }
-
-// make single-col grid images stretch to the viewport
-@media (max-width: 527px) {
-  img {
-    width: 100vw;
-    max-width: calc(100vw - 6rem);
-  }
-}
